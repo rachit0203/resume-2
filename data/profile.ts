@@ -3,16 +3,13 @@ export const profile = {
   firstName: "Rachit",
   role: "Software Engineer",
   company: "The Adecco Group",
-  // TODO: replace with your city, e.g. "Noida, India".
-  location: "India",
+  location: "Lucknow, India",
   timeZone: "Asia/Kolkata",
   timeZoneLabel: "IST",
   email: "mishrarachitalld@gmail.com",
   links: {
-    // TODO: replace with your real profiles.
-    github: "https://github.com/your-username",
-    linkedin: "https://www.linkedin.com/in/your-handle",
-    // TODO: add your resume at public/resume.pdf.
+    github: "https://github.com/rachit0203",
+    linkedin: "https://www.linkedin.com/in/mishra-rachit/",
     resume: "/resume.pdf",
   },
   education: {

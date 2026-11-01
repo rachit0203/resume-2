@@ -49,7 +49,6 @@ export const timeline: TimelineEntry[] = [
     details: [
       "AWS APAC — Solutions Architecture: proposing a scalable hosting architecture for a client scenario.",
       "Deloitte Australia — Technology: development and data tasks in a consulting context.",
-      // TODO: confirm AWS Cloud Practitioner status (certified vs. in progress).
       "AWS Cloud Practitioner: core services, pricing and architecture principles.",
     ],
   },

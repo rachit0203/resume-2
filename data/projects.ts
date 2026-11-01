@@ -1,7 +1,6 @@
 import type { ArchivedProject, Project } from "./types";
 
-// TODO: replace repo/demo placeholders with real URLs.
-const GH = "https://github.com/your-username";
+const GH = "https://github.com/rachit0203";
 
 export const projects: Project[] = [
   {
@@ -72,8 +71,7 @@ export const projects: Project[] = [
       "An app that helps people build a resume section by section, using a language model to draft and improve the content.",
     kind: "Product",
     role: "Design, frontend & backend",
-    // TODO: confirm the exact stack.
-    stack: ["React", "Node.js", "LLM API"],
+    stack: ["React", "Node.js", "LLM API", "Prompt Engineering"],
     problem:
       "Writing a resume is mostly staring at an empty field. People know what they did — the hard part is phrasing it clearly.",
     why: "A practical way to put a language model behind a real product feature, with structured input and output instead of a free-form chat box.",
@@ -182,8 +180,7 @@ export const projects: Project[] = [
     summary: "A social media app inspired by X — posting, following and a personalised timeline.",
     kind: "Clone",
     role: "Frontend & backend",
-    // TODO: confirm the exact stack.
-    stack: ["React", "Node.js", "Express", "MongoDB"],
+    stack: ["React", "Node.js", "Express", "MongoDB", "JWT"],
     problem:
       "A timeline looks like a list, but behind it are relationships: who follows whom, what each person should see, and in what order.",
     why: "Rebuilding a familiar product removes the question of what it should do and leaves the interesting part — how to make it work.",
@@ -227,8 +224,7 @@ export const projects: Project[] = [
       "A Spotify-inspired streaming interface with a persistent player, library views and playback controls.",
     kind: "Clone",
     role: "Frontend",
-    // TODO: confirm the exact stack.
-    stack: ["HTML", "CSS", "JavaScript"],
+    stack: ["HTML", "CSS", "JavaScript", "UI State"],
     problem:
       "Media apps live or die by their UI state: what's playing, what's next, and what happens when you navigate while the music keeps going.",
     why: "A focused frontend exercise. Recreating a polished interface is the fastest way to learn what makes it feel polished.",
@@ -267,7 +263,6 @@ export const projects: Project[] = [
 ];
 
 export const archive: ArchivedProject[] = [
-  // TODO: link to the previous portfolio.
   { name: "Portfolio v1", note: "The previous version of this site", href: GH },
 ];
 
